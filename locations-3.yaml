@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: hdl-locations-3
+spec:
+  owner: group:default/hdl-sw-team
+  targets:
+  - https://github.com/Vitorbnc/hdl/tree/backstage_yaml/yaml/project-sidekiqz2-catalog-info.yaml
+  - https://github.com/Vitorbnc/hdl/tree/backstage_yaml/yaml/project-usrpe31x-catalog-info.yaml
+  type: url
